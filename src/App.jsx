@@ -3,10 +3,15 @@
 // STYLES
 
 // LIBRARIES
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // MISC
 
 // COMPONENTS
+import Home from "./elements/pages/Home";
+import Projects from "./elements/pages/Projects";
+import Experience from "./elements/pages/Experience";
+import Navbar from "./elements/components/Navbar";
 
 // CONFIGURATION
 const App = () => {
@@ -22,8 +27,15 @@ const App = () => {
 
   // EVENT HANDLERS
   return (
-    <div>
-      <h1>MY PORTFOLIO</h1>
+    <div className="app-container">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+      </Router>
     </div>
   );
 };
