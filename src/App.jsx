@@ -8,10 +8,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // MISC
 
 // COMPONENTS
-import Home from "./elements/pages/Home";
-import Projects from "./elements/pages/Projects";
-import Experience from "./elements/pages/Experience";
-import Navbar from "./elements/components/Navbar";
+import Home from "./elements/pages/Home/Home";
+import Projects from "./elements/pages/Projects/Projects";
+import Experience from "./elements/pages/Experience/Experience";
+import Navbar from "./elements/components/Navbar/Navbar";
+import Footer from "./elements/components/Footer/Footer";
 
 // CONFIGURATION
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

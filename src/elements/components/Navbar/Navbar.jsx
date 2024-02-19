@@ -31,7 +31,7 @@ const Navbar = () => {
 
   // EVENT HANDLERS
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${showNavbar ? "open" : "close"}`}>
       <div className="toggleButton">
         <button
           onClick={() => {

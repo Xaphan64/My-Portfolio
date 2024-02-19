@@ -10,12 +10,17 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #111111;
-  color: #fcfcfc;
+  background-color: #436850;
+  color: #fbfada;
 }
 
 .app-container {
   text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 // color1: #12372A

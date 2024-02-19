@@ -1,0 +1,14 @@
+.experience-container {
+  .vertical-timeline-element-date {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 1170px) {
+    .timeline-element {
+      span {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
