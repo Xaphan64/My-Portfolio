@@ -1,7 +1,4 @@
 // ASSETS
-import blog from "../../assets/blog_placeholder.webp";
-import ecommerce from "../../assets/ecommerce_placeholder.jpg";
-import pm from "../../assets/pm_placeholder.avif";
 
 // STYLES
 import "./Projects.scss";
@@ -9,9 +6,10 @@ import "./Projects.scss";
 // LIBRARIES
 
 // MISC
+import { ProjectList } from "../../helpers/ProjectList";
 
 // COMPONENTS
-import Project from "../../components/Project/Project";
+import ProjectCard from "../../components/Project/ProjectCard";
 
 // CONFIGURATION
 const Projects = () => {
@@ -31,9 +29,9 @@ const Projects = () => {
       <h1>My Projects</h1>
 
       <div className="projects-list">
-        <Project name="hardcoded blog project" image={blog} />
-        <Project name="hardcoded pm project" image={pm} />
-        <Project name="hardcoded ecommerce project" image={ecommerce} />
+        {ProjectList.map((project, index) => {
+          return <ProjectCard key={index} id={index} name={project.name} image={project.image} />;
+        })}
       </div>
     </div>
   );

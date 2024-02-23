@@ -1,5 +1,7 @@
 // ASSETS
 
+import { useNavigate } from "react-router-dom";
+
 // STYLES
 
 // LIBRARIES
@@ -9,26 +11,24 @@
 // COMPONENTS
 
 // CONFIGURATION
-const Project = ({ image, name }) => {
+const ProjectCard = ({ image, name, id }) => {
   // PROPERTIES
 
   // API REQUESTS
 
   // LIBRARY CONSTANTS
-
+  const navigate = useNavigate();
   // STATE CONSTANTS
 
   // LIFE CYCLE
 
   // EVENT HANDLERS
   return (
-    <div className="project-container">
+    <div className="project-card-container" onClick={() => navigate("/project/" + id)}>
       <div style={{ backgroundImage: `url(${image})` }} className="project-image" />
       <h1> {name} </h1>
     </div>
   );
 };
 
-export default Project;
-
-//0722 397 297 - laurentiu sun din partea lui marian de la royal pt revizia de gaze
+export default ProjectCard;

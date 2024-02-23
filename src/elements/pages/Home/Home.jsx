@@ -29,7 +29,7 @@ const Home = () => {
       <div className="about">
         <h2>Hi, My Name is Daniel</h2>
         <div className="prompt">
-          <span>A Online Requirements/Networking Specialist with a passion for Front-End coding in React JS.</span>
+          <span>A Online Requirements/ Networking Specialist with a passion for Front-End coding in React JS.</span>
           <div className="contact-links">
             <a href="https://github.com/Xaphan64">
               <GitHubIcon />
@@ -50,7 +50,7 @@ const Home = () => {
           </li>
 
           <li className="item">
-            <h2>Online Requirements/Networking Specialist</h2>
+            <h2>Online Requirements/ Networking Specialist</h2>
             <span>
               Software Quality, Test Management, Testrail, Project Planning, Software Quality Assurance, Software
               Development Cycle, Networking

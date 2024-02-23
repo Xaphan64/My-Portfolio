@@ -13,6 +13,7 @@ import Projects from "./elements/pages/Projects/Projects";
 import Experience from "./elements/pages/Experience/Experience";
 import Navbar from "./elements/components/Navbar/Navbar";
 import Footer from "./elements/components/Footer/Footer";
+import ProjectDetails from "./elements/pages/ProjectDetails/ProjectDetails";
 
 // CONFIGURATION
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
         <Footer />
