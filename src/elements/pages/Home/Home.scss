@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .home-container {
   width: 100%;
   font-family: "Arial", sans-serif;
@@ -5,7 +7,7 @@
   .about {
     width: 100%;
     height: calc(100vh - 100px);
-    background-color: #12372a;
+    background-color: $secondary-background;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,11 +31,11 @@
         svg {
           font-size: 56px;
           margin: 8px;
-          color: #fbfada;
+          color: $primary-text;
           cursor: pointer;
 
           &:hover {
-            color: #adbc9f;
+            color: $secondary-text;
             transition: 0.5s;
           }
         }

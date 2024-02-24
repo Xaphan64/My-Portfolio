@@ -1,7 +1,9 @@
+@import "../../../index.scss";
+
 .navbar-container {
   width: 100%;
   height: 100px;
-  background: #12372a;
+  background: $secondary-background;
 
   .toggleButton {
     width: 100%;
@@ -19,7 +21,7 @@
       background-color: transparent;
       border: none;
       cursor: pointer;
-      color: #fbfada;
+      color: $primary-text;
     }
   }
 
@@ -31,13 +33,13 @@
     justify-content: center;
 
     a {
-      color: #fbfada;
+      color: $primary-text;
       text-decoration: none;
       font-size: 24px;
       margin: 24px;
 
       &:hover {
-        color: #adbc9f;
+        color: $secondary-text;
         transition: 0.5s;
       }
     }
