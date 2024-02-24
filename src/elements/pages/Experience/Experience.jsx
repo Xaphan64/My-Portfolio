@@ -37,8 +37,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Colegiul Tehnic Petru Poni, Onesti</h3>
-          <span>Tehnician Ecolog si Protectia Calitatii Mediului</span>
+          <h3>Tehnician Ecolog si Protectia Calitatii Mediului</h3>
+          <span>Colegiul Tehnic Petru Poni, Onesti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -49,8 +49,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Universitatea Politehnica Bucuresti</h3>
-          <span>Facultatea de Chimie Aplicata si Stiinta Materialelor</span>
+          <h3>Facultatea de Chimie Aplicata si Stiinta Materialelor</h3>
+          <span>Universitatea Politehnica Bucuresti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -61,8 +61,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Ubisoft Bucuresti</h3>
-          <span className="text">Game Tester</span>
+          <h3>Game Tester</h3>
+          <span>Ubisoft Bucuresti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -73,8 +73,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Ubisoft Bucuresti</h3>
-          <span>Task Lead</span>
+          <h3>Task Lead</h3>
+          <span>Ubisoft Bucuresti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -85,8 +85,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Ubisoft Bucuresti</h3>
-          <span>Task Lead & Coordinator</span>
+          <h3>Task Lead & Coordinator</h3>
+          <span>Ubisoft Bucuresti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -97,8 +97,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Ubisoft Bucuresti</h3>
-          <span>Online Requirements Specialist</span>
+          <h3>Online Requirements Specialist</h3>
+          <span>Ubisoft Bucuresti</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -109,8 +109,8 @@ const Experience = () => {
           contentStyle={{ background: "#12372A" }}
           contentArrowStyle={{ borderRight: "8px solid #FBFADA" }}
         >
-          <h3>Ubisoft Bucuresti</h3>
-          <span>Online Requirements/Networking Specialist</span>
+          <h3>Online Requirements/Networking Specialist</h3>
+          <span>Ubisoft Bucuresti</span>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

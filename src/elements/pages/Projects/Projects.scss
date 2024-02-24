@@ -11,7 +11,7 @@
   color: #e9d35b;
 
   h1 {
-    font-size: 62px;
+    font-size: 64px;
     font-weight: bolder;
 
     @media screen and (max-width: 600px) {
@@ -31,14 +31,14 @@
       width: 500px;
       height: 400px;
       margin: 40px;
-      box-shadow: 0px 3px 24px $primary-background;
+      box-shadow: 0px 3px 32px $secondary-background;
       text-align: center;
       background-color: $secondary-background;
       color: $primary-text;
 
       &:hover {
         cursor: pointer;
-        box-shadow: 0px 3px 24px $secondary-background;
+        box-shadow: 0px 3px 32px $primary-background;
         transition: 0.5s ease-in;
       }
 

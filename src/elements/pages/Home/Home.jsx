@@ -29,7 +29,7 @@ const Home = () => {
       <div className="about">
         <h2>Hi, My Name is Daniel</h2>
         <div className="prompt">
-          <span>A Online Requirements/ Networking Specialist with a passion for Front-End coding in React JS.</span>
+          <span>An Online Requirements/ Networking Specialist with a passion for Front-End coding in React JS.</span>
           <div className="contact-links">
             <a href="https://github.com/Xaphan64">
               <GitHubIcon />

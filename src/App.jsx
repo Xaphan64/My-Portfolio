@@ -14,6 +14,7 @@ import Experience from "./elements/pages/Experience/Experience";
 import Navbar from "./elements/components/Navbar/Navbar";
 import Footer from "./elements/components/Footer/Footer";
 import ProjectDetails from "./elements/pages/ProjectDetails/ProjectDetails";
+import About from "./elements/pages/About/About";
 
 // CONFIGURATION
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/experience" element={<Experience />} />
