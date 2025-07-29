@@ -30,19 +30,23 @@ const App = () => {
 
   // EVENT HANDLERS
   return (
-    <div className="app-container">
-      <Router>
+    <Router>
+      <div className="app-container">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:id" element={<ProjectDetails />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/project/:id" element={<ProjectDetails />} />
+            <Route path="/experience" element={<Experience />} />
+          </Routes>
+        </div>
+        <div className="footer-container">
+          <Footer />
+        </div>
+      </div>
+    </Router>
   );
 };
 
